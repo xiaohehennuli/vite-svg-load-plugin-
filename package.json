@@ -1,0 +1,35 @@
+{
+  "name": "vite-svg-load-plugin",
+  "version": "1.0.0",
+  "description": "a svg load",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "format": "prettier --write \"src/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "xiaohe",
+  "files": [
+    "lib/**/*"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@svgr/core": "^6.3.0",
+    "@types/node": "^18.0.6",
+    "esbuild": "^0.14.49",
+    "prettier": "^2.7.1",
+    "resolve": "^1.22.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@types/resolve": "^1.20.2"
+  }
+}
